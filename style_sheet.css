@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Lato;
+    src: url(Assets/Lato/Lato-Regular.ttf);
+}
+
+/*Header*/
+body {
+    margin: 0%;
+}
+.navbar {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.navbar a {
+    color: #00597c;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s;
+    font-weight: 700;
+    font-family: lato;
+}
+.navbar a:hover {
+    color: #00BCE1; /* Change this color to whatever you prefer */
+}
