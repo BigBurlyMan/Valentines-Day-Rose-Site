@@ -7,8 +7,15 @@
 body {
     margin: 0%;
 }
+
+.nav_logo{
+    display: flex;
+    justify-content: flex-start;
+}
 .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background-color: #ffffff;
     padding: 10px;
 }
