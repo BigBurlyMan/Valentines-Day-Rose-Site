@@ -3,31 +3,55 @@
     src: url(Assets/Lato/Lato-Regular.ttf);
 }
 
-/*Header*/
+
 body {
     margin: 0%;
 }
 
-.nav_logo{
-    display: flex;
-    justify-content: flex-start;
-}
+/*------------------------Nav Bar------------------------*/
 .navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
 }
-.navbar a {
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
     color: #00597c;
-    padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
+    padding: 8px 16px;
     transition: color 0.3s;
-    font-weight: 700;
     font-family: lato;
+    font-weight: 700;
 }
-.navbar a:hover {
-    color: #00BCE1; /* Change this color to whatever you prefer */
+
+.nav-links a:hover {
+    color: #00BCE1;
+}
+/*------------------------H1------------------------*/
+.head1 h1{
+    display: flex;
+    justify-content: center;
+    font-family: lato;
+    font-weight: 4000;
+    color: #00597c;
+}
+
+.head1 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: lato;
 }
