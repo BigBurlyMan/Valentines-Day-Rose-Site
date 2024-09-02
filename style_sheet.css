@@ -55,3 +55,30 @@ body {
     margin-left: 20%;
     font-family: lato;
 }
+
+/*home bottom section*/
+.row-content_image{
+    display: flex;
+    align-items: center;
+    margin: 20px 5%;
+}
+
+.content{
+    padding-right: 20px;
+    margin: auto 0;
+}
+
+.col-4 h2{
+    color: #00597c;
+    font-family: lato;
+    padding-bottom: 10px;
+}
+
+.col-4 p{
+    font-family: lato;
+}
+
+.col-4 img{
+    height: 400px;
+    width: 450px;
+}
