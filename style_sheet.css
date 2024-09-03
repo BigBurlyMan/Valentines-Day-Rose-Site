@@ -196,6 +196,7 @@ body {
   flex-direction: column;
   max-width: 25%;
   margin-bottom: 25px;
+  align-items: center;
 }
 
 .product_1 img{
