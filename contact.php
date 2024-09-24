@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style_sheet.css">
 </head>
 <body>
@@ -19,44 +19,28 @@
         </div>
     </nav>
     <div class="head1">
-        <h1>STORE</h1>
+        <h1>CONTACT</h1>
     </div>
 
-    <div class="N_drop_down">
-    <label for="membership">How Many Roses</label>
-        <select name="rose_count" id="rose_count">
-            <option value="1" selected>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-        </select>
-    </div>
+    <section class="special_contact">
+        <div class="row-content_image_contact">
+            <div class="col-4_contact">
+                <div class="content_contact">
+                    <h2>Key Contacts</h2>
+                    <p> First Name Last Name : Email@School.com <br>
+                        First Name Last Name : Email@School.com <br>
+                        First Name Last Name : Email@School.com <br>
+                        First Name Last Name : Email@School.com <br>
+                    </p>
+                </div>
+            </div>
+                <div class="col-4_contact">
+                    <img src="Assets/images.png" alt="award image Product_prod_4">
+                </div>
+        </div>
+    </section>
 
-    <div class="text_boxes">
-        <label for="widerTextarea">The FULL NAME Of Reciever:</label>
-        <textarea id="widerTextarea" name="widerTextarea"></textarea>
-        <br><br>
-
-        <label for="widerTextarea">Your Name (optional)</label>
-        <textarea id="widerTextarea" name="widerTextarea"></textarea>
-        <br><br>
-
-        <label for="tallerTextarea">personalised message:</label>
-        <textarea id="tallerTextarea" name="tallerTextarea"></textarea>
-    </div>
-
-    <div class="submit_button">
-        <button class="hover-button">Checkout</button>
-    </div>
 </body>
-
-
-
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">
@@ -74,5 +58,4 @@
     </div>
     <p>&copy; 2024 YourCompany. All rights reserved.</p>
 </footer>
-
 </html>

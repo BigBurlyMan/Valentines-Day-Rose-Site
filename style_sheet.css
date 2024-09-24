@@ -310,12 +310,13 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  font-family: lato;
 }
 
 /* Footer sections */
 .footer-section {
   flex: 1;
-  margin: 10px;
+  margin: auto;
 }
