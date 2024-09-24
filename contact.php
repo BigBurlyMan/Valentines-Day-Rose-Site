@@ -12,10 +12,10 @@
             <a href="index.html"><img src="Assets/Logo.png" alt="Logo"></a>
         </div>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="photo_gallery.html">photo gallery</a>
-            <a href="contact.html">contact</a>
-            <a href="store.html">store</a>
+            <a href="index.php">Home</a>
+            <a href="photo_gallery.php">photo gallery</a>
+            <a href="contact.php">contact</a>
+            <a href="store.php">store</a>
         </div>
     </nav>
     <div class="head1">

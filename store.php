@@ -12,43 +12,41 @@
             <a href="index.html"><img src="Assets/Logo.png" alt="Logo"></a>
         </div>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="photo_gallery.html">photo gallery</a>
-            <a href="contact.html">contact</a>
-            <a href="store.html">store</a>
+            <a href="index.php">Home</a>
+            <a href="photo_gallery.php">photo gallery</a>
+            <a href="contact.php">contact</a>
+            <a href="store.php">store</a>
         </div>
     </nav>
     <div class="head1">
         <h1>STORE</h1>
     </div>
-
-    <div class="N_drop_down">
-    <label for="membership">How Many Roses</label>
-        <select name="rose_count" id="rose_count">
-            <option value="1" selected>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-        </select>
-    </div>
-
-    <div class="text_boxes">
-        <label for="widerTextarea">The FULL NAME Of Reciever:</label>
-        <textarea id="widerTextarea" name="widerTextarea"></textarea>
-        <br><br>
-
-        <label for="widerTextarea">Your Name (optional)</label>
-        <textarea id="widerTextarea" name="widerTextarea"></textarea>
-        <br><br>
-
-        <label for="tallerTextarea">personalised message:</label>
-        <textarea id="tallerTextarea" name="tallerTextarea"></textarea>
-    </div>
+    <form action="includes/formhandler.inc.php" method="post">
+        <div class="N_drop_down">
+        <label for="membership">How Many Roses</label>
+            <select name="Number_Roses" id="rose_count">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div class="text_boxes">
+            <label for="widerTextarea">The FULL NAME Of Reciever:</label>
+            <textarea id="widerTextarea" name="	Name_Receiver"></textarea>
+            <br><br>
+            <label for="widerTextarea">Your Name (optional)</label>
+            <textarea id="widerTextarea" name="Name_Sender"></textarea>
+            <br><br>
+            <label for="tallerTextarea">personalised message:</label>
+            <textarea id="tallerTextarea" name="Message"></textarea>
+        </div>
+    </form>
 
     <div class="submit_button">
         <button class="hover-button">Checkout</button>
