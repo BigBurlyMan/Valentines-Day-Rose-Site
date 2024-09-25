@@ -22,6 +22,7 @@
         <h1>STORE</h1>
     </div>
     <form action="includes/formhandler.inc.php" method="post">
+        <!--
         <div class="N_drop_down">
         <label for="membership">How Many Roses</label>
             <select name="Number_Roses" id="rose_count">
@@ -46,11 +47,20 @@
             <label for="tallerTextarea">personalised message:</label>
             <textarea id="tallerTextarea" name="Message"></textarea>
         </div>
+        <div class="submit_button">
+            <button class="hover-button">Checkout</button>
+        </div>
+-->
+    <input type="int" name="Number_Roses" placeholder="Number of roses">
+    <input type="text" name="Name_Receiver" placeholder=" FULL name of recipient">
+    <input type="text" name="Name_Sender" placeholder="Your Name">
+    <input type="text" name="Personal_Message" placeholder="Message (optional)">
+    <button>Submit</button>
+
+
     </form>
 
-    <div class="submit_button">
-        <button class="hover-button">Checkout</button>
-    </div>
+
 </body>
 <footer class="footer">
     <div class="footer-content">

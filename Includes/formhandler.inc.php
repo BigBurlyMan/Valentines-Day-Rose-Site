@@ -6,13 +6,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Number_Roses = $_POST["Number_Roses"];
     $Name_Receiver = $_POST["Name_Receiver"];
     $Name_Sender = $_POST["Name_Sender"];
-    $Message = $_POST["Message"];
+    $Personal_Message = $_POST["Personal_Message"];
 
     try {
         require_once"dbh.inc.php";
-        $query = "INSERT INTO rose_information (Number_Roses, Name_Receiver, Name_Sender, Message) VALUES (?, ?, ?, ?);";
+        $query = "INSERT INTO rose_information (Number_Roses, Name_Receiver, Name_Sender, Personal_Message) VALUES (?, ?, ?, ?);";
         $stmt = $pdo->prepare($query);
-        $stmt->execute([$Number_Roses, $Name_Receiver, $Name_Sender, $Message]);
+        $stmt->execute([$Number_Roses, $Name_Receiver, $Name_Sender, $Personal_Message]);
 
         $pdo = null;
         $stmt = null;

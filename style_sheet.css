@@ -234,7 +234,7 @@ body {
 }
 
 /*---------------------------------store---------------------------------*/
-
+/*
 .N_drop_down {
   display: flex;
   flex-direction: column;
@@ -248,7 +248,7 @@ body {
   text-align: center;
 }
 
-/*text boxes*/
+
 .text_boxes {
   display: flex;
   flex-direction: column;
@@ -258,42 +258,47 @@ body {
 
 #widerTextarea {
   height: 25px;
-  width: 300px; /* Wider width */
+  width: 300px; 
   text-align: center;
 }
 
 
 #tallerTextarea {
-  height: 100px; /* Taller height */
+  height: 100px; 
   width: 600px;
 }
 
-/*button*/
+
 .submit_button{
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
-/*button style*/
+
 .hover-button {
   background-color: #00597c; 
-  color: white; /* White text */
-  padding: 15px 32px; /* Button size */
+  color: white; 
+  padding: 15px 32px; 
   font-size: 16px;
-  border: 2px solid transparent; /* No border initially */
-  border-radius: 2px; /* Rounded corners */
-  cursor: pointer; /* Mouse pointer on hover */
-  transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+  border: 2px solid transparent; 
+  border-radius: 2px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, border-color 0.3s; 
 }
 
-/* Button hover effect */
+
 .hover-button:hover {
-  background-color: white; /* Change background to white */
-  color: #00597c; /* Text changes to green */
-  border: 2px solid #00597c; /* Green outline on hover */
+  background-color: white; 
+  color: #00597c; 
+  border: 2px solid #00597c; 
 }
+*/
 
-
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /*--------------------------footer----------------------*/
 /* Footer styling */
