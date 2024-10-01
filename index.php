@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!--css link-->
-    <link rel="stylesheet" href="style_sheet.css">
+    <link rel="stylesheet" href="style_sheet.css"> <!--css link-->
 </head>
 <body>
     <!--Navigation Bar Code-->
@@ -33,26 +32,25 @@
                 <div class="content">
                     <!--header and text block-->
                     <h2>Valenties Day at LBC</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                    <p>Valentine’s Day at Long Bay College is always a blast! The school is buzzing 
+                       with excitement as students exchange roses, spreading love and friendship. 
+                       The highlight of the day is the serenades, where talented students perform 
+                       heartfelt songs for their friends and crushes, creating unforgettable memories. 
+                       Adding to the fun, prefects dressed as angels roam the halls, handing out roses 
+                       and spreading joy. It’s a day filled with laughter, music, and a sense of 
+                       community, making Valentine’s Day at Long Bay College an event everyone looks 
+                       forward to each year.
                     </p>
                 </div>
             </div>
             <!--image beside text-->
                 <div class="col-4">
-                    <img src="Assets/images.png" alt="award image Product_prod_4">
+                    <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1657.jpg" alt="award image Product_prod_4">
                 </div>
         </div>
     </section>
 </body>
+<!--footer stuff-->
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">

@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta stuff-->
     <title>Store</title>
-    <link rel="stylesheet" href="style_sheet.css">
+    <link rel="stylesheet" href="style_sheet.css"> <!--css link-->
 </head>
 <body>
     <nav class="navbar">
+        <!--logo top left-->
         <div class="logo">
             <a href="index.html"><img src="Assets/Logo.png" alt="Logo"></a>
         </div>
+        <!--nav bar links-->
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="photo_gallery.php">photo gallery</a>
@@ -23,6 +25,7 @@
     </div>
 
     <div class="text_boxes">
+    <!--container with form and text boxes-->
     <form id="roseForm" action="includes/formhandler.inc.php" method="post">
         <input type="number" id="Number_Roses" name="Number_Roses" placeholder="Number of roses 1-9" min="1" max="9" required>
         <input type="text" id="Recipient_Name" name="Recipient_Name" placeholder="FULL name of recipient" required maxlength="20">
@@ -97,12 +100,8 @@
         }
     });
 </script>
-
-
-
-
-
 </body>
+<!--footer stuff-->
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">

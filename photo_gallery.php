@@ -2,29 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta stuff-->
     <title>Photo Gallery</title>
-    <link rel="stylesheet" href="style_sheet.css">
+    <link rel="stylesheet" href="style_sheet.css"> <!--css link-->
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
+          <!--logo top left-->
             <a href="index.html"><img src="Assets/Logo.png" alt="Logo"></a>
         </div>
+        <!--nav links-->
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="photo_gallery.php">photo gallery</a>
             <a href="contact.php">contact</a>
             <a href="store.php">store</a>
-        </div>
+        </iv>
     </nav>
-    <div class="head1">
+    <div class="head1"> <!--page header-->
         <h1>GALLERY</h1>
     </div>
 
-    <!-- Slideshow container -->
+    <!--Slideshow container-->
   <div class="slideshow-container">
-    <!-- Full-width images with number and caption text -->
+    <!--slideshow images-->
     <div class="mySlides fade">
       <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1599.jpg" style="width:100%" >
     </div>
@@ -34,6 +36,8 @@
     <div class="mySlides fade">
       <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1649.jpg" style="width:100%">
   </div>
+
+  <!--slideshow javascript (got from W3Schools)-->
   <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -77,9 +81,10 @@
     }
   </script>
 
+<!--container for 1st row of images-->
   <div class="catagories_product">
     <div class="row_product">
-        <div class="product_1">
+        <div class="product_1"> <!-- the 3 images in row-->
             <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
         </div>
         <div class="product_1">
@@ -90,9 +95,10 @@
         </div>
     </div>
 
+  <!--container for 2nd row of images-->
   <div class="catagories_product">
     <div class="row_product">
-        <div class="product_1">
+        <div class="product_1"> <!-- the 3 images in row-->
             <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1605.jpg" alt="feel flex Blue">
         </div>
         <div class="product_1">
@@ -103,9 +109,10 @@
         </div>
     </div>
     
+    <!--container for 3rd row of images-->
     <div class="catagories_product">
       <div class="row_product">
-          <div class="product_1">
+          <div class="product_1"> <!-- the 3 images in row-->
               <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
           </div>
           <div class="product_1">
@@ -115,9 +122,8 @@
               <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1598.jpg" alt="feel flex white">
           </div>
       </div>
-
-
 </body>
+<!--footer stuff-->
 <footer class="footer">
   <div class="footer-content">
       <div class="footer-section">

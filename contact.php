@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--meta stuff-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style_sheet.css">
+    <link rel="stylesheet" href="style_sheet.css"> <!--css link-->
 </head>
 <body>
+    <!--logo at top left-->
     <nav class="navbar">
         <div class="logo">
             <a href="index.html"><img src="Assets/Logo.png" alt="Logo"></a>
         </div>
+        <!--nav bar links-->
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="photo_gallery.php">photo gallery</a>
@@ -18,10 +20,11 @@
             <a href="store.php">store</a>
         </div>
     </nav>
+    <!--page header-->
     <div class="head1">
         <h1>CONTACT</h1>
     </div>
-
+    <!--container for contact info and staff image-->
     <section class="special_contact">
         <div class="row-content_image_contact">
             <div class="col-4_contact">
@@ -41,6 +44,7 @@
     </section>
 
 </body>
+<!--footer stuff-->
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">
