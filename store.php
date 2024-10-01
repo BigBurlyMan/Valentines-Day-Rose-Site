@@ -21,43 +21,14 @@
     <div class="head1">
         <h1>STORE</h1>
     </div>
+    
     <form action="includes/formhandler.inc.php" method="post">
-        <!--
-        <div class="N_drop_down">
-        <label for="membership">How Many Roses</label>
-            <select name="Number_Roses" id="rose_count">
-                <option value="1" selected>1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-        </div>
-        <div class="text_boxes">
-            <label for="widerTextarea">The FULL NAME Of Reciever:</label>
-            <textarea id="widerTextarea" name="	Name_Receiver"></textarea>
-            <br><br>
-            <label for="widerTextarea">Your Name (optional)</label>
-            <textarea id="widerTextarea" name="Name_Sender"></textarea>
-            <br><br>
-            <label for="tallerTextarea">personalised message:</label>
-            <textarea id="tallerTextarea" name="Message"></textarea>
-        </div>
-        <div class="submit_button">
-            <button class="hover-button">Checkout</button>
-        </div>
--->
     <input type="int" name="Number_Roses" placeholder="Number of roses">
-    <input type="text" name="Name_Receiver" placeholder=" FULL name of recipient">
-    <input type="text" name="Name_Sender" placeholder="Your Name">
+    <input type="text" name="Recipient_Name" placeholder=" FULL name of recipient">
+    <input type="text" name="Sender_Name" placeholder="Your Name">
+    <input type="text" name="Sender_StudentID" placeholder="Your Student ID">
     <input type="text" name="Personal_Message" placeholder="Message (optional)">
     <button>Submit</button>
-
-
     </form>
 
 
