@@ -234,71 +234,56 @@ body {
 }
 
 /*---------------------------------store---------------------------------*/
-/*
-.N_drop_down {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family:lato ;
-  padding-bottom: 3%;
-}
 
-#rose_count {
-  width: 50px;
-  text-align: center;
-}
-
-
+/* Center the form container */
 .text_boxes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family:lato ;
-}
-
-#widerTextarea {
-  height: 25px;
-  width: 300px; 
-  text-align: center;
-}
-
-
-#tallerTextarea {
-  height: 100px; 
-  width: 600px;
-}
-
-
-.submit_button{
-  display: flex;
   justify-content: center;
-  padding-top: 10px;
-}
-
-.hover-button {
-  background-color: #00597c; 
-  color: white; 
-  padding: 15px 32px; 
-  font-size: 16px;
-  border: 2px solid transparent; 
-  border-radius: 2px; 
-  cursor: pointer; 
-  transition: background-color 0.3s, border-color 0.3s; 
+  align-items: center;
+  height: 100%; /* Full height of the viewport */
+  max-width: 70%;
+  margin: 0 20%; /* Center horizontally */
 }
 
 
-.hover-button:hover {
-  background-color: white; 
-  color: #00597c; 
-  border: 2px solid #00597c; 
-}
-*/
-
+/* Style the form and text boxes */
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center; 
+  width: 100%; 
+  padding: 20px;
+ 
 }
+
+input[type="text"], input[type="int"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Style the button */
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #00597c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #00BCE1;
+}
+
+
 
 /*--------------------------footer----------------------*/
 /* Footer styling */

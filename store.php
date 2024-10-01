@@ -21,16 +21,17 @@
     <div class="head1">
         <h1>STORE</h1>
     </div>
-    
+    <div class="text_boxes">
     <form action="includes/formhandler.inc.php" method="post">
-    <input type="int" name="Number_Roses" placeholder="Number of roses">
-    <input type="text" name="Recipient_Name" placeholder=" FULL name of recipient">
-    <input type="text" name="Sender_Name" placeholder="Your Name">
-    <input type="text" name="Sender_StudentID" placeholder="Your Student ID">
-    <input type="text" name="Personal_Message" placeholder="Message (optional)">
-    <button>Submit</button>
+        <input type="int" name="Number_Roses" placeholder="Number of roses 1-9">
+        <input type="text" name="Recipient_Name" placeholder=" FULL name of recipient">
+        <input type="text" name="Sender_Name" placeholder="Your Name">
+        <input type="text" name="Sender_StudentID" placeholder="Your Student ID">
+        <input type="text" name="Personal_Message" placeholder="Message (optional)">
+        <button>Submit</button>
     </form>
 
+    </div>
 
 </body>
 <footer class="footer">
