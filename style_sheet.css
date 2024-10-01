@@ -257,7 +257,7 @@ form {
  
 }
 
-input[type="text"], input[type="int"] {
+input[type="text"] {
   margin-bottom: 15px;
   padding: 10px;
   text-align: center;
@@ -265,6 +265,17 @@ input[type="text"], input[type="int"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100%;
+}
+
+input[type="number"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+
 }
 
 /* Style the button */
