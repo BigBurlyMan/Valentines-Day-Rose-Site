@@ -18,6 +18,7 @@
             <a href="photo_gallery.php">photo gallery</a>
             <a href="contact.php">contact</a>
             <a href="store.php">store</a>
+            <a href="login.php"> staff login</a>
         </div>
     </nav>
     <!--page header-->

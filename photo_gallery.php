@@ -18,7 +18,8 @@
             <a href="photo_gallery.php">photo gallery</a>
             <a href="contact.php">contact</a>
             <a href="store.php">store</a>
-        </iv>
+            <a href="login.php"> staff login</a>
+        </div>
     </nav>
     <div class="head1"> <!--page header-->
         <h1>GALLERY</h1>
@@ -28,13 +29,14 @@
   <div class="slideshow-container">
     <!--slideshow images-->
     <div class="mySlides fade">
-      <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1599.jpg" style="width:100%" >
+      <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1599.jpg" alt="slideshow_image1" style="width:100%" >
     </div>
     <div class="mySlides fade">
-      <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1620.jpg" style="width:100%">
+      <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1620.jpg" alt="slideshow_image2" style="width:100%">
     </div>
     <div class="mySlides fade">
-      <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1649.jpg" style="width:100%">
+      <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1649.jpg" alt="slideshow_image3" style="width:100%">
+    </div>
   </div>
 
   <!--slideshow javascript (got from W3Schools)-->
@@ -85,45 +87,47 @@
   <div class="catagories_product">
     <div class="row_product">
         <div class="product_1"> <!-- the 3 images in row-->
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
         </div>
         <div class="product_1">
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1595.jpg" alt="feel flex black">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1595.jpg" alt="feel flex black">
         </div>
         <div class="product_1">
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1598.jpg" alt="feel flex white">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1598.jpg" alt="feel flex white">
         </div>
     </div>
-
+  </div>
+  
+  
   <!--container for 2nd row of images-->
   <div class="catagories_product">
     <div class="row_product">
         <div class="product_1"> <!-- the 3 images in row-->
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1605.jpg" alt="feel flex Blue">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1605.jpg" alt="feel flex Blue">
         </div>
         <div class="product_1">
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1608.jpg" alt="feel flex black">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1608.jpg" alt="feel flex black">
         </div>
         <div class="product_1">
-            <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1611.jpg" alt="feel flex white">
+            <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1611.jpg" alt="feel flex white">
         </div>
     </div>
-    
+  </div>
     <!--container for 3rd row of images-->
     <div class="catagories_product">
       <div class="row_product">
           <div class="product_1"> <!-- the 3 images in row-->
-              <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
+              <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1593-Edit.jpg" alt="feel flex Blue">
           </div>
           <div class="product_1">
-              <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1595.jpg" alt="feel flex black">
+              <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1595.jpg" alt="feel flex black">
           </div>
           <div class="product_1">
-              <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1598.jpg" alt="feel flex white">
+              <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1598.jpg" alt="feel flex white">
           </div>
       </div>
-</body>
-<!--footer stuff-->
+    </div>
+    <!--footer stuff-->
 <footer class="footer">
   <div class="footer-content">
       <div class="footer-section">
@@ -141,4 +145,5 @@
   </div>
   <p>&copy; 2024 YourCompany. All rights reserved.</p>
 </footer>
+</body>
 </html>

@@ -18,6 +18,7 @@
             <a href="photo_gallery.php">photo gallery</a>
             <a href="contact.php">contact</a>
             <a href="store.php">store</a>
+            <a href="login.php"> staff login</a>
         </div>
     </nav>
     <div class="head1">
@@ -38,7 +39,6 @@
     <!-- Message Box for errors -->
     <div id="errorMessage" style="color: red; display: none;"></div>
 </div>
-
 <script>
     // JavaScript form validation
     document.getElementById('roseForm').addEventListener('submit', function(event) {
@@ -100,6 +100,7 @@
         }
     });
 </script>
+
 </body>
 <!--footer stuff-->
 <footer class="footer">

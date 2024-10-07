@@ -19,6 +19,7 @@
             <a href="photo_gallery.php">photo gallery</a>
             <a href="contact.php">contact</a>
             <a href="store.php">store</a>
+            <a href="login.php"> staff login</a>
         </div>
     </nav>
     <!--header and header text-->
@@ -45,21 +46,20 @@
             </div>
             <!--image beside text-->
                 <div class="col-4">
-                    <img src="Assets/Valentine's Day 2024(Insta Ready)/_DML1657.jpg" alt="award image Product_prod_4">
+                    <img src="Assets/Valentine's_Day_2024(Insta_Ready)/_DML1657.jpg" alt="award image Product_prod_4">
                 </div>
         </div>
     </section>
-</body>
-<!--footer stuff-->
+
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">
             <h3>About Us</h3>
-            <p>We are dedicated to providing excellent quality products and expericnces .</p>
+            <p>We are dedicated to providing excellent quality products and experiences.</p>
         </div>
         <div class="footer-section">
             <h3>Quick Info</h3>
-            <p>Our services range from roses to serinades.</p>
+            <p>Our services range from roses to serenades.</p>
         </div>
         <div class="footer-section">
             <h3>Contact</h3>
@@ -68,4 +68,5 @@
     </div>
     <p>&copy; 2024 YourCompany. All rights reserved.</p>
 </footer>
+</body>
 </html>
